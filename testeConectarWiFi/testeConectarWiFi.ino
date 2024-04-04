@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // Replace with your network credentials (STATION)
-const char* ssid = "MOB-NATAN";
-const char* password = "20201914nmA@";
+const char* ssid = "Name of you network";
+const char* password = "password";
 
 void initWiFi() {
   WiFi.mode(WIFI_STA);
